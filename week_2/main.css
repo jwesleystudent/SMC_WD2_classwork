@@ -57,3 +57,11 @@ ul.nav-links a{
     }
 }
 /* End of Mid-Screen media query */
+
+@media(min-width:960px) {
+    header {
+        width: 960px;
+        margin: auto;
+    }
+}
+/* END OF LARGE SCREEN MEDIA QUERY */

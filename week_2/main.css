@@ -31,11 +31,29 @@ ul.nav-links{
 ul.nav-links li{
     padding: 10px;
     border-bottom: 2px solid dodgerblue;
+    text-align: right;
 }
 
 ul.nav-links a{
     text-decoration: none;
     text-transform: uppercase;
     color:#516f51;
+    
 }
+
+@media(min-width:550px){
+    .toggle-button {
+        display:none;
+    }
+    
+    ul.nav-links {
+        display: block;
+        float: right;
+        margin-top: 35px;
+    }
+    ul.nav-links li {
+        display: inline-block;
+        border-bottom: none;
+    }
 }
+/* End of Mid-Screen media query */

@@ -5,8 +5,33 @@ body {
     margin: 0px;
 }
 
-.flex-images {
-display:flex;
-flex-direction: column;
-justify-content: center;
+
+.flex-images{
+    display:flex;
+    flex-direction: column;
+    max-width:50%;
+    justify-content: center;
+    
+}
+
+.flex-images img{
+    max-width: 100%;
+}
+
+
+
+@media(min-width: 960px){
+
+    .flex-images{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-images img{
+        display:flex;
+        flex-direction: row;
+        max-width: 50%;
+        
+        
+    }
 }

@@ -51,6 +51,7 @@ body {
 
     .flex-images-top img{
         max-width: 33%;
+        height: auto;
         
            
     }
@@ -61,8 +62,8 @@ body {
     }
 
     .flex-images-bottom img{
-        display:flex;
-        flex-direction: row;
+        max-width: 33.3%;
+        height: auto;
         
            
     }

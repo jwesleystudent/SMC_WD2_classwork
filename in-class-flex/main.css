@@ -10,14 +10,14 @@ body {
     display:flex;
     flex-direction: column;
     max-width:50%;
-    justify-content: center;
+    align-items: center;
     
 }
 
 .flex-images-top img{
     display:flex;
     max-width: 100%;
-    justify-content: center;
+    
 }
 
 .flex-images-bottom{
@@ -25,14 +25,14 @@ body {
     flex-direction: column;
     max-width:50%;
     height: auto;
-    justify-content: center;
+    align-items: center;
     
 }
 
 .flex-images-bottom img{
     display: flex;
     max-width: 100%;
-    justify-content: center;
+    
 }
 
 
@@ -49,8 +49,7 @@ body {
     }
 
     .flex-images-top img{
-        display:flex;
-        flex-direction: row;
+        max-width: 33%;
         
            
     }

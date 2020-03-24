@@ -80,11 +80,12 @@ nav a {
     }
 
     nav ul li {
-        border-bottom: none;
+        border-bottom: rgba(12, 250, 198, 0.418);
         flex-basis: 0;
         flex-grow: 1;
     }
  
+        
     
 
 }

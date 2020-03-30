@@ -13,11 +13,21 @@
 
 .gd-1 img {
     width: 100%;
-    height: 100%
+    
+}
+
+.gd-2 {
+    padding:10px;
 }
 
 .gd-3 {
     grid-row: 2/4;
+    text-align: justify;
+    padding:10px;
+}
+
+.gd-4 img {
+    width: 100%;
 }
 
 .gd-5 {

@@ -1,4 +1,5 @@
 @import url("colors.css");
+@import url("navbar.css");
 
 .grid-container {
     display: grid;
@@ -7,6 +8,7 @@
     grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr [v-line-3];
     
     grid-gap: 15px;
+    margin-top: 15px;;
 
     height: 100vh;
 }
@@ -18,6 +20,7 @@
 
 .gd-2 {
     padding:10px;
+    text-align: justify;
 }
 
 .gd-3 {
@@ -32,6 +35,15 @@
 
 .gd-5 {
     grid-row: 3/ h-line-5;
+    padding: 10px;
+    text-align: justify;
+}
+
+.gd-6 img {
+    width:100%;
+    rotate: 180deg;
+}
+
 }
 
 @media(min-width: 560px){
@@ -75,6 +87,8 @@
         display: grid;
         grid-template-rows: [h-line-1] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4];
         grid-template-columns: [v-line-1] 100px [v-line-2] auto [v-line-3] 100px [v-line-4];
-        width: 800px;
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

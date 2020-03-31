@@ -49,7 +49,6 @@ body {
 
 .gd-6 img {
     width:100%;
-    rotate: 180deg;
 }
 
 
@@ -74,7 +73,7 @@ body {
     }
     
     .gd-4, .gd-5 {
-        grid-row: h-line-2 / h-line-4;
+        grid-row: 2 / 3;
     }
     
     .gd-6 {
@@ -86,6 +85,7 @@ body {
 @media(min-width: 768px){
     .grid-container{
         width: 760px;
+        justify-content: center;
     }
 }
 
@@ -94,7 +94,7 @@ body {
         display: grid;
         grid-template-rows: [h-line-1] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4];
         grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr [v-line-3] 1fr [v-line-4];
-        width: 960px;
+        max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -104,7 +104,7 @@ body {
     }
 
     .gd-4 img{
-        margin-top: 160px;
+        margin-top: 40px;
         width:100%;
         height: auto;
     }

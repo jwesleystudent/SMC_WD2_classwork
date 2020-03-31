@@ -1,24 +1,97 @@
+@import url(colors.css);
+
 body {
     margin: 0px;
   }
   
-  .box {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
+  
+  .lab-box-font {
+    text-align: center;
+    font-size: 75%;
+    padding: 15px;
+  }
+
+  .box-2{
+    grid-column:2/3 ;
+    grid-row: 1/2;
   }
   
-  .box:nth-child(even) {
-    background-color: #ccc;
-    color: #000;
+  .box-2 img{
+    width: 200px;
+   
   }
+
+  .box-4{
+    grid-column:1/2 ;
+    grid-row: 2/3;
+  }
+
+  .box-4 img{
+    width: 200px;
+    
+  }
+
+  .box-6 img{
+    width: 200px;
+  }
+ 
   
-  .grid-container {
+  .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: [v-line-1] 1fr ;
-    grid-template-rows: [h-line-1] 1fr ;
-    grid-auto-flow: column;
+    grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr ;
+    grid-template-rows: [h-line-1] 1fr [h-line-2] 1fr ;
+    grid-auto-flow: row;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  @media(min-width: 768px){
+    .lab-box-font{
+      font-size: 125%;
+    }
+
+    .box img {
+      width:379px;
+    }
+  }
+ 
+  @media(min-width: 960px){
+
+    .lab-box-font {
+      text-align: center;
+      font-size: 150%;
+      padding: 15px;
+    }
+    .wrapper {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: [v-line-1] 1fr ;
+      grid-template-rows: [h-line-1] 1fr ;
+      grid-auto-flow: row;
+      justify-items: center;
+      max-width: 1000px;
+  }
+
+ 
+
+  .shiba-2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .shiba-3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .shiba-4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .shiba-5 img{
+    width: 500px;
+  }
+
   }

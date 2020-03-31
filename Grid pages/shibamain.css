@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 150%;
+  }
+
+  .box-1 img{
+      width: 200px;
+  }
+
+  .box-3 img{
+    width:200px;
+  }
+
+  .box-5 img{
+    width:200px;
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [v-line-1] 1fr ;
+    grid-template-rows: [h-line-1] 1fr ;
+    grid-auto-flow: column;
+  }

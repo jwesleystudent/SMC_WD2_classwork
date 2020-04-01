@@ -1,0 +1,62 @@
+@import url("colors.css");
+
+body {
+    margin: 0px;
+}
+
+header,
+main {
+    width:100%;
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    height: 90vh;
+}
+
+.block-inline-centering {
+    text-align: center;
+}
+
+main.flex-center{
+    display: flex;
+    flex-direction: column;
+}
+
+header h3 {
+    text-align: center;
+    margin:0px;
+    padding: 32px;
+    height: 64px;
+}
+footer {
+    min-height:200px;
+    
+}
+footer .text-container {
+    width: 380px;
+    background-color: dodgerblue;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+@media (min-width: 600px) {
+main {
+    width: 580px;
+    margin: auto;
+}
+main.flex-center {
+flex-direction: row;
+justify-content: center;
+}
+}
+
+@media (min-width: 900px) {
+main {
+    width: 880;
+}
+}

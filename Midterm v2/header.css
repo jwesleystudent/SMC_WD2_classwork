@@ -4,26 +4,17 @@ ul.nav-links {
 }
 
 .logo{
-    max-width: 175px;
-    margin-top: 0px;
-    margin-left: 0px;
+    max-width: 200px;
+    margin: 10px;
 }
 
 #toggleAssist:checked + ul.nav-links {
     display: block;
 }  
 
-div {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    margin-left: 10px;
-    float:right;
-  }
-
 .toggle-button {
     width: 65px;
     float: right;
-    margin: 17px;
+    margin-top: 25px;
+    margin-right: 12px;
 }

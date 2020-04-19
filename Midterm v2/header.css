@@ -1,0 +1,29 @@
+#toggleAssist,
+ul.nav-links {
+    display: none;
+}
+
+.logo{
+    max-width: 175px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#toggleAssist:checked + ul.nav-links {
+    display: block;
+}  
+
+div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    margin-left: 10px;
+    float:right;
+  }
+
+.toggle-button {
+    width: 65px;
+    float: right;
+    margin: 17px;
+}

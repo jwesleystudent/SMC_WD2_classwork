@@ -1,27 +1,29 @@
+@import url("header.css");
+
+
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#toggleAssist,
 ul.nav-links{
-    display: none;
-    font-size: x-large;
-    background-color: aqua;
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul.nav-links li{
+    padding: 10px;
+    border-bottom: 2px solid #0f75bc;
+    text-align: right;
+}
+
+ul.nav-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#000000;
 }
 
 a {
     color: black;
 }
 
-#toggleAssist:checked + ul.nav-links {
-    display: block;
-}
-
-div {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    margin-left: 10px;
-  }

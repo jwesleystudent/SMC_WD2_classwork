@@ -19,6 +19,10 @@ ul {
     padding-right: 10px;
 }
 
+.row-2-sm{
+    display:flex;
+}
+
 .color-title{
     text-align: center;
     text-justify: auto;
@@ -52,4 +56,24 @@ ul {
     text-align: right;
     margin-top: -140px;
     padding-right: 10px;
+}
+@media(min-width: 768px){
+
+    .hc-box{
+        width: 800px;
+    }
+
+    .color-box{
+        width: 800px;
+        order: 1;
+    }
+
+    .row-2-lg{
+        order: 2;
+    }
+
+    .style-box{
+        width: 800px;
+    }
+
 }

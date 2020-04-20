@@ -1,4 +1,5 @@
 @import url("header.css");
+@import url("services.css");
 
 
 body {
@@ -27,6 +28,10 @@ body {
     display:none;
 }
 
+.small-screen{
+    display: none;
+}
+
 @media(min-width: 768px){
     .flex{
         display:flex;
@@ -49,3 +54,17 @@ body {
     .flex img.row-2-lg{
         display:flex;
     }
+
+    .flex img.remove-lg{
+        display:none;
+    }
+
+    .text-about{
+        display:flex;
+        width: 1201px;
+        height:auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}

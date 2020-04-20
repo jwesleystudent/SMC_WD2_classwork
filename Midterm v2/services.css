@@ -1,3 +1,34 @@
-.haircuts{
-    float:left;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.hc-title{
+    border-bottom: 2px solid #0f75bc;
+}
+.hc-list{
+    width: 50%;
+    padding-left: 10px;
+}
+.hc-price{
+    float: right;
+    text-align: right;
+    margin-top: -98px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.color-list{
+    width: 50%;
+    padding-left: 10px;
+}
+
+.color-price{
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: -413px;
+    height: auto;
+    padding-right: 10px;
 }

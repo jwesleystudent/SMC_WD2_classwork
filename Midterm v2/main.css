@@ -1,6 +1,6 @@
 @import url("header.css");
 @import url("services.css");
-
+@import url("colors.css");
 
 body {
     margin: 0px;
@@ -13,9 +13,7 @@ body {
     display:flex;
     flex-direction: column;
     max-width:100%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+    
     padding: 2px;
 }
 

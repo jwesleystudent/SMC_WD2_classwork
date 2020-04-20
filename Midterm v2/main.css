@@ -6,26 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul.nav-links{
-    list-style: none;
-    padding-left: 0px;
-}
 
-ul.nav-links li{
-    padding: 10px;
-    border-bottom: 2px solid #0f75bc;
-    text-align: right;
-}
-
-ul.nav-links a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color:#000000;
-}
-
-a {
-    color: black;
-}
 
 .flex{
     display:flex;
@@ -34,8 +15,37 @@ a {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    padding: 2px;
 }
 
 .flex img{
     max-width: 100%;
+    padding: 2px;
 }
+
+.flex img.row-2-lg{
+    display:none;
+}
+
+@media(min-width: 768px){
+    .flex{
+        display:flex;
+        flex-direction: row;
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+    .flex img{
+        max-width: 100%;
+        padding: 3px;
+    }
+
+    .flex img.row-2-sm{
+        display:none;
+    }
+
+    .flex img.row-2-lg{
+        display:flex;
+    }

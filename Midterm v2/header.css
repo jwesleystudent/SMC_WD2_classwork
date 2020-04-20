@@ -45,9 +45,7 @@ ul img{
     width:35px;
 }
 
-a {
-    color: black;
-}
+
 
 @media(min-width: 768px){
     header {

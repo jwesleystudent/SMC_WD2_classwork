@@ -5,30 +5,51 @@ ul {
   }
 
 .hc-title{
-    border-bottom: 2px solid #0f75bc;
+    text-align: center;
+    text-justify: auto;
 }
-.hc-list{
-    width: 50%;
+.lt-list{
+    width: 82%;
     padding-left: 10px;
 }
 .hc-price{
-    float: right;
     text-align: right;
-    margin-top: -98px;
+    margin-top: -83px;
     height: auto;
     padding-right: 10px;
 }
 
+.color-title{
+    text-align: center;
+    text-justify: auto;
+}
+
 .color-list{
-    width: 50%;
+    width: 60%;
     padding-left: 10px;
 }
 
 .color-price{
-    width: 100%;
     float: right;
     text-align: right;
-    margin-top: -413px;
-    height: auto;
+    margin-top: -382px;
+    padding-right: 10px;
+}
+
+.disclaimer{
+    text-align: center;
+    text-justify: auto;
+    margin-top:-20px;
+}
+
+.styling{
+    text-align: center;
+    text-justify: auto;
+}
+
+.style-price{
+    float: right;
+    text-align: right;
+    margin-top: -140px;
     padding-right: 10px;
 }

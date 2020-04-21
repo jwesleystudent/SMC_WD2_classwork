@@ -30,9 +30,13 @@ ul.nav-links{
 }
 
 ul.nav-links li{
-    padding: 10px;
+    padding: 30px;
     border-bottom: 2px solid #0f75bc;
     text-align: right;
+}
+
+#insta{
+    padding:15px;
 }
 
 ul.nav-links a{

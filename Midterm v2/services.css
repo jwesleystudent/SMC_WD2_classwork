@@ -9,35 +9,40 @@ ul {
     text-justify: auto;
 }
 .lt-list{
-    width: 82%;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 .hc-price{
     text-align: right;
-    margin-top: -83px;
+    margin-top: -140px;
     height: auto;
-    padding-right: 10px;
+    padding-right: 30px;
+    float: right;
 }
 
 .row-2-sm{
     display:flex;
 }
 
+.color-box{
+    width:375px;
+    order:1;
+}
+
 .color-title{
     text-align: center;
     text-justify: auto;
+    padding: 15px;
 }
 
 .color-list{
     width: 60%;
-    padding-left: 10px;
 }
 
 .color-price{
     float: right;
     text-align: right;
     margin-top: -382px;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .disclaimer{
@@ -49,6 +54,7 @@ ul {
 .styling{
     text-align: center;
     text-justify: auto;
+    padding: 15px;
 }
 
 .style-price{
@@ -57,10 +63,25 @@ ul {
     margin-top: -140px;
     padding-right: 10px;
 }
+
+.add-on{
+    text-align: center;
+    text-justify: auto;
+    padding: 15px;
+}
+
 @media(min-width: 768px){
 
     .hc-box{
         width: 800px;
+    }
+
+    .hc-price{
+        text-align: right;
+        margin-top: -137px;
+        height: auto;
+        padding-right: 30px;
+        float: right;
     }
 
     .color-box{
@@ -75,5 +96,7 @@ ul {
     .style-box{
         width: 800px;
     }
+
+   
 
 }

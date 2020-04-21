@@ -76,6 +76,10 @@ ul {
         width: 800px;
     }
 
+    .hc-title{
+        margin-bottom: 50px;
+    }
+
     .hc-price{
         text-align: right;
         margin-top: -137px;

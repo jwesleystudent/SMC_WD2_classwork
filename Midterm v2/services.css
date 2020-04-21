@@ -21,10 +21,12 @@ ul {
 
 .row-2-sm{
     display:flex;
+}.row-2-lg{
+    display:none;
 }
 
 .color-box{
-    width:375px;
+    width:100%;
     order:1;
 }
 
@@ -43,6 +45,7 @@ ul {
     text-align: right;
     margin-top: -420px;
     padding-right: 15px;
+
 }
 
 .disclaimer{
@@ -94,7 +97,12 @@ ul {
     }
 
     .row-2-lg{
+        display:flex;
         order: 2;
+    }
+
+    .row-2-sm{
+        display:none;
     }
 
     .style-box{

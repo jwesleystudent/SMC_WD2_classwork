@@ -27,7 +27,7 @@ a {
     padding: 2px;
 }
 
-.flex img.row-2-lg{
+.flexbox img.row-2-lg{
     display:none;
 }
 
@@ -50,6 +50,11 @@ a {
     }
 
     .flex img{
+        max-width: 50%;
+        padding: 3px;
+    }
+
+    .flexbox img{
         max-width: 100%;
         padding: 3px;
     }
@@ -58,8 +63,11 @@ a {
         display:none;
     }
 
-    .flex img.row-2-lg{
+    .flexbox img.row-2-lg{
         display:flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .row-2{

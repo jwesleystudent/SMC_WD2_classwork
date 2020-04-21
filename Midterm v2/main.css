@@ -62,6 +62,10 @@ a {
         display:flex;
     }
 
+    .row-2{
+        display: flex;
+    }
+
     .flex img.remove-lg{
         display:none;
     }

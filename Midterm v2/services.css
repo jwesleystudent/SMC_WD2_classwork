@@ -83,17 +83,29 @@ ul {
         margin-bottom: 50px;
     }
 
+    .lt-list{
+        padding-left: 70px;
+    }
+
     .hc-price{
         text-align: right;
         margin-top: -137px;
         height: auto;
-        padding-right: 30px;
+        padding-right: 70px;
         float: right;
     }
 
     .color-box{
         width: 800px;
         order: 1;
+    }
+
+    .color-price{
+        float: right;
+        text-align: right;
+        margin-top: -420px;
+        padding-right: 70px;
+    
     }
 
     .row-2-lg{
@@ -109,6 +121,12 @@ ul {
         width: 800px;
     }
 
+    .style-price{
+        float: right;
+        text-align: right;
+        margin-top: -140px;
+        padding-right: 70px;
+    }
    
 
 }

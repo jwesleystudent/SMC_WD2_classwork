@@ -54,6 +54,13 @@ a {
         padding: 3px;
     }
 
+    .text-about{
+        padding-right: 60px;
+        padding-left: 60px;
+        line-height: 1.8;
+        letter-spacing: 1.2px;
+    }
+
     .flexbox img{
         max-width: 100%;
         padding: 3px;

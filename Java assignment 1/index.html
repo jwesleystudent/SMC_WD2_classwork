@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Many Buttons</title>
+<style>
+    #header1{
+        color: black;
+    }
+            .pane {
+                width: 100%;
+                height: 200px;
+            }
+            #tealPane {
+                background-color:teal;
+            }
+
+    </style>
+
+</head>
+<body>
+
+    <h1 id="header1">Click All the Buttons</h1>
+
+
+    <section>
+        <div class="pane" id="tealPane">
+
+        </div>
+
+        <button id="changeToRed">Change to Red</button>
+        <button id="Text1">Change It Up</button>
+    </section>
+    
+    <script>
+
+        var response = prompt("What's your name?", "Mr. Meeseeks");
+        var myHeader = document.getElementById("header1");
+
+        var tealPane = document.getElementById("tealPane");
+        var redButton = document.getElementById("changeToRed");
+        var greenButton = document.getElementById("Text1");
+
+        myHeader.style.color="red";
+        myHeader.style.backgroundColor="orange";
+        myHeader.style.fontSize="56px";
+
+        myHeader.innerText="Hello, " + response;
+        console.log("Hello, " + 5 + " Numbnuts!");
+
+        redButton.addEventListener("click" , function(){
+
+            tealPane.style.backgroundColor = "salmon";
+            var notification = document.createElement("h2");
+            notification.innerText = "This is now a red Box!";
+            tealPane.appendChild(notification);
+        });
+
+        greenButton.addEventListener("click" , function(){
+
+            tealPane.style.backgroundColor = "green";
+            var notification = document.createElement("h1");
+            notification.innerText = "BAM! Green Box!";
+            tealPane.appendChild(notification);
+        });
+        
+
+    </script>
+
+
+</body>
+</html>

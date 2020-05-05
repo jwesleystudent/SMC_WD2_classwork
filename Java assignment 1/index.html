@@ -52,6 +52,7 @@
         redButton.addEventListener("click" , function(){
 
             tealPane.style.backgroundColor = "salmon";
+            myHeader.style.fontSize="40px";
             var notification = document.createElement("h2");
             notification.innerText = "This is now a red Box!";
             tealPane.appendChild(notification);
@@ -60,6 +61,8 @@
         greenButton.addEventListener("click" , function(){
 
             tealPane.style.backgroundColor = "green";
+            tealPane.style.backgroundSize = "width 50%, height 200px";
+            myHeader.style.fontSize="80px";
             var notification = document.createElement("h1");
             notification.innerText = "BAM! Green Box!";
             tealPane.appendChild(notification);

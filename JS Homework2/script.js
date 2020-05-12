@@ -24,24 +24,23 @@ var swapEntImage = function(){
 
 
 
-// var resetPhaserImage = function (){
-    // if (enterpriseImg.alt == "enterprise firing phasers"){
-        // enterpriseImg.src = "entNormal.jpg";
-        // enterpriseImg.alt = "enterprise at rest";
-        // resetButton.innerText = "Weapons Ready";
-    // }
-// }
+var resetPhaserImage = function (){
+    if (enterpriseImg.alt == "enterprise firing phasers"){
+        enterpriseImg.src = "entNormal.jpg";
+        enterpriseImg.alt = "enterprise at rest";
+        resetButton.innerText = "Weapons Ready";
+    }
+}
 
-// var resetPhotonImage = function (){
-    // if (enterpriseImg.alt == "enterprise firing photon torpedoes"){
-        // enterpriseImg.src = "entNormal.jpg";
-        // enterpriseImg.alt = "enterprise at rest";
-        // resetButton.innerText = "Weapons Ready";
-    // }
-// }
+var resetPhotonImage = function (){
+    if (enterpriseImg.alt == "enterprise firing photon torpedoes"){
+        enterpriseImg.src = "entNormal.jpg";
+        enterpriseImg.alt = "enterprise at rest";
+        resetButton.innerText = "Weapons Ready";
+    }
+}
 
 
 fireButton.addEventListener("click", swapEntImage);
-
-// resetButton.addEventListener("click", resetPhaserImage);
-// resetButton.addEventListener("click", resetPhotonImage);
+resetButton.addEventListener("click", resetPhaserImage);
+resetButton.addEventListener("click", resetPhotonImage);

@@ -8,6 +8,7 @@
 var enterpriseImg = document.getElementById("enterpriseImg");
 var fireButton = document.getElementById("entChange");
 var resetButton = document.getElementById("reset");
+var discoveryButton = document.getElementById("thumb1");
 
 var swapEntImage = function(){
     if(enterpriseImg.alt == "enterprise at rest"){
@@ -22,6 +23,12 @@ var swapEntImage = function(){
     }
 }
 
+var swapDiscImage = function(){
+    if(enterpriseImg.alt == "enterprise firing phasers"){
+        enterpriseImg.src = "discovery.jpg";
+        enterpriseImg.alt = "discovery in orbit";
+    }
+}
 
 
 var resetPhaserImage = function (){
@@ -44,3 +51,4 @@ var resetPhotonImage = function (){
 fireButton.addEventListener("click", swapEntImage);
 resetButton.addEventListener("click", resetPhaserImage);
 resetButton.addEventListener("click", resetPhotonImage);
+discoveryButton.addEventListener("click", swapDiscImage)

@@ -3,15 +3,52 @@ body{
 }
 
 header {
-    min-height: 300px;
+    min-height: 150px;
 }
 body{
     background-color: black;
 }
 
+#toggleAssist,
+ul.nav-links {
+    display: none;
+}
+
+.logo{
+    max-width: 75px;
+    margin: 20px;
+}
+
+#toggleAssist:checked + ul.nav-links {
+    display: block;
+}  
+.toggle-button {
+    width: 40px;
+    float: right;
+    margin: 15px;
+}
+
+ul.nav-links{
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul.nav-links li{
+    padding: 10px;
+    border-bottom: 2px solid dodgerblue;
+    text-align: right;
+}
+
+ul.nav-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ffff;
+   
+}
+
 .button1 {
     display: flex;
-    width:300px;
+    width:340px;
     align-content: space-around;
     margin-left: auto;
     margin-right: auto;
@@ -46,4 +83,31 @@ body{
     font-size: 20px;
     margin: 10px;
 
+}
+
+#thumb1{
+    padding:0px;
+    width:100px;
+    height:60px;
+    margin:10px;
+}
+#thumb {
+    width: 100%;
+    height: auto;
+}
+
+@media(min-width:550px){
+    .toggle-button {
+        display:none;
+    }
+    
+    ul.nav-links {
+        display: block;
+        float: right;
+        margin-top: 35px;
+    }
+    ul.nav-links li {
+        display: inline-block;
+        border-bottom: none;
+    }
 }

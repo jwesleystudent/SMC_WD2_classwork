@@ -28,7 +28,7 @@ var swapPuppyImage = function(){
     else {
         frenchieImg.src = "images/french-puppy.jpg";
         frenchieImg.alt= "Image of a cute Frenchie puppy";
-        frenchieButton.innerText="Show the Second One"
+        frenchieButton.innerText="Show the First One"
     }
 
     frenchieImg.src = "images/corgi-puppy.jpg";

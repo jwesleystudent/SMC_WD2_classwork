@@ -72,7 +72,18 @@
             })
         }
 
-        
+  
+
+        var showEntImage = function(){
+            if(enterpriseImg.alt == "enterprise at rest"){
+            enterpriseImg.src = "discovery.jpg";
+            enterpriseImg.alt = "discovery";
+        }
+            else{
+            enterpriseImg.src = "entPhaser.jpg";
+            enterpriseImg.alt = "enterprise firing phasers";
+        }
+        }
 
         var timerFunction= function(){
             // var newElem = document.createElement("p");

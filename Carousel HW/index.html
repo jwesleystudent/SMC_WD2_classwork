@@ -15,19 +15,26 @@
         <form method="GET" action="">
             <label for="groupSelect">Category</label>
             <select id="groupSelect">
-                <option value="animals">Cute animals</option>
-                <option value="food">Food</option>
-                <option value="nature">Nature</option>
+                <option value="Cities">Cities</option>
+                <option value="Nature">Nature</option>
                 </select>
 
-                <label for="catSelect">Items</label>
+                <label for="catSelect">See Images for</label>
                 <select id="catSelect"></select>
         </form>
     <hr>
     </header>
 
+    
     <main id = "gallery">
-        <img src="images/discovery.jpg" alt="ship1" id="galleryImg">
+        <div class="imgGallery">
+        <img src="images/tokyo1.jpg" alt="tokyo skyline" id="galleryImg">
+        <img src="images/new-york.jpg" alt="new york skyline" id="galleryImg2">
+    </div>
+        <div class="imgGallery">
+            <img src="images/desert1.jpg" alt="Red Rock National Park" id="galleryImg3">
+            <img src="images/beach1.jpg" alt="Phi Phi Island Thailand" id="galleryImg4">
+        </div>
     </main>
     
 
@@ -36,22 +43,18 @@
         var catSelect = document.getElementById("catSelect");
 
         var galleryImg= document.getElementById("galleryImg");
-
-        var catAnimals = ["Puppies", "Kittens", "Quokkas"];
-        var catFood = ["Coffee", "Dessert", "Cocktails", "Muffins", "Pineapples", "Onions"];
-        var catNature = ["Forests", "Beaches", "Mountains"];
+        var catCities = ["Tokyo", "New York"];
+        var catNature = ["Beaches", "Deserts"];
 
         var imageCounter = 1;
 
         groupSelect.addEventListener("change", function(){
             console.log(groupSelect.value);
-            if (groupSelect.value == "animals"){
-                fillCategory(catAnimals);
+            if (groupSelect.value == "Cities"){
+                fillCategory(catCities);
             }
-            else if (groupSelect.value == "food"){
-                fillCategory(catFood);
-            }
-            else if (groupSelect.value == "nature"){
+           
+            else if (groupSelect.value == "Nature"){
                 fillCategory(catNature);
             }
             else {
@@ -72,18 +75,6 @@
             })
         }
 
-  
-
-        var showEntImage = function(){
-            if(enterpriseImg.alt == "enterprise at rest"){
-            enterpriseImg.src = "discovery.jpg";
-            enterpriseImg.alt = "discovery";
-        }
-            else{
-            enterpriseImg.src = "entPhaser.jpg";
-            enterpriseImg.alt = "enterprise firing phasers";
-        }
-        }
 
         var timerFunction= function(){
             // var newElem = document.createElement("p");
@@ -91,20 +82,79 @@
             // document.getElementById("gallery").appendChild(newElem);
 
             if(imageCounter ==1){
-                galleryImg.src = "images/discovery.jpg";
+                galleryImg.src = "images/tokyo1.jpg";
                 imageCounter = 2;
             }
             else if(imageCounter ==2){
-                galleryImg.src="images/entNormal.jpg";
+                galleryImg.src="images/tokyo2.jpg";
                 imageCounter = 3;
             }
             else if(imageCounter ==3){
-                galleryImg.src="images/entPhaser.jpg";
+                galleryImg.src="images/tokyo3.jpg";
                 imageCounter = 1;
             }
 
         }
         window.setInterval(timerFunction, 3000);
+
+        var timerFunction= function(){
+            
+
+            if(imageCounter ==1){
+                galleryImg2.src = "images/new-york.jpg";
+                imageCounter = 2;
+            }
+            else if(imageCounter ==2){
+                galleryImg2.src="images/new-york2.jpg";
+                imageCounter = 3;
+            }
+            else if(imageCounter ==3){
+                galleryImg2.src="images/new-york3.jpg";
+                imageCounter = 1;
+            }
+
+        }
+        window.setInterval(timerFunction, 3000)
+
+        var timerFunction= function(){
+            
+
+            if(imageCounter ==1){
+                galleryImg3.src = "images/desert1.jpg";
+                imageCounter = 2;
+            }
+            else if(imageCounter ==2){
+                galleryImg3.src="images/desert2.jpg";
+                imageCounter = 3;
+            }
+            else if(imageCounter ==3){
+                galleryImg3.src="images/desert3.jpg";
+                imageCounter = 1;
+            }
+
+        }
+        window.setInterval(timerFunction, 3000)
+
+        var timerFunction= function(){
+            
+
+            if(imageCounter ==1){
+                galleryImg4.src = "images/beach1.jpg";
+                imageCounter = 2;
+            }
+            else if(imageCounter ==2){
+                galleryImg4.src="images/beach2.jpg";
+                imageCounter = 3;
+            }
+            else if(imageCounter ==3){
+                galleryImg4.src="images/beach3.jpg";
+                imageCounter = 1;
+            }
+
+        }
+        window.setInterval(timerFunction, 3000)
+
+        
 
         
 

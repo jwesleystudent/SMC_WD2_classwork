@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <main>
+        <div class="long-ps">
+            <p id="someP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis beatae, tempore odio illum in repudiandae unde, aspernatur doloribus labore hic omnis voluptatibus quo. Est modi nostrum et numquam eos.</p>
+
+            <p class="long-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis beatae, tempore odio illum in repudiandae unde, aspernatur doloribus labore hic omnis voluptatibus quo. Est modi nostrum et numquam eos.</p>
+    </div>
+
+    <div class="images">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Quokka_at_rottnest_%28cropped%29.jpg" alt="quokka" class="hideable-img">
+    </div>
+
+<button id="clickB">Click Me to add another paragraph</button>
+<button id="clickR">Click Me to removve some</button>
+<button id="hideBtn">hide image</button>
+<button id="toggleBtn">toggle image</button>
+
+<button id="fadeToggleBtn">click to toggle fade images</button>
+
+<button id=slideUpBtn>click to slide up away</button>
+
+<button id=customAnimationBtn>click</button>
+
+
+    </main>
+    
+    
+    <script src ="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            
+            
+            $("#clickB").click(function(){
+            $(".long-ps").append('<p class="long-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis beatae, tempore odio illum in repudiandae unde, aspernatur doloribus labore hic omnis voluptatibus quo. Est modi nostrum et numquam eos.</p>')
+        })
+        $("#clickR").click(function(){
+            $(".long-paragraph").remove();
+        })
+
+        $("#hideBtn").click(function(){
+            $(".hideable-img").hide();
+        })
+
+        $("#toggleBtn").click(function(){
+            $(".hideable-img").toggle();
+        })
+
+        $("#fadeOutBtn").click(function(){
+            $(".hideable-img").fadeOut(4000, function(){
+                $(".images").append("<h1>Image Hidden Now</h1>")
+            })
+        })
+
+        $("#fadeToggleBtn").click(function(){
+            $(".hideable-img").fadeToggle(2000);
+        })
+
+        $("#slideUpBtn").click(function(){
+            $(".hideable-img").slideUp(2000);
+        })
+
+        $("#customAnimationBtn").click(function(){
+            $(".hideable-img").animate({height: "0px", width: "920px", marginBottom: "657px"}, 2000) 
+        })  // end of animatons
+
+       
+    
+        })  //end of document
+
+
+       
+           
+    </script>
+
+
+</body>
+</html>

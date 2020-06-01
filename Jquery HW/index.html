@@ -39,8 +39,21 @@
 
 
             $("#randomBtn").click(function(){
-                $( "div.img1" ).replaceWith( "div.img2" );
-                $(".img2")
+                var images = [];
+                var imgElmt = document.getElementsByTagName("img");
+
+                for(var i = 0; i < imgElmt.length; i++ ){
+                    images[i] = imgElmt[i].src;
+                }
+
+                for(var i = 0; i < 4; i++ ){
+                    var pos = Math.floor(Math.random()*images.length);
+
+                    imgElmt[i].src = images[pos];
+                    images.splice(pos, 1);
+                    console.log(images);
+                }
+                
             })
 
             $("#fadeBtn").click(function(){

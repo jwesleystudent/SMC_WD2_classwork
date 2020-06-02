@@ -6,11 +6,12 @@
     <title>jQuery UI Homework</title>
 
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https:/resources/demos/style.css">
+    
     
     <link rel="stylesheet" href="main.css">
     
-    <script src ="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!-- (line 14) script should run anime section -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>
@@ -66,8 +67,9 @@
 
 
   <h3>Playing With Anime</h3>
-   
   
+
+  <div class="anime">
     <div class="flex">
       <div class="grid-container"id="theGrid">
           <div class="img1"><img src="images/kaneki.jpg" id="pic1"></div>
@@ -83,36 +85,29 @@
     </div>
 
 </div>
+</div>
 
 
-  <h3>Section 3</h3>
-  <div>
-    <p>
-    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-    </p>
-    <ul>
-      <li>List item one</li>
-      <li>List item two</li>
-      <li>List item three</li>
-    </ul>
+  <h3>What Am I Thinking About</h3>
+  <div class="guess">
+    <div class="ui-widget">
+      <h3>Start typing and selecting options to try and guess what I am thinking!</h3>
+      <label for="tags">Start Typing! </label>
+      <input id="tags">
+    </div>
+   
+    <div class="guess">
+      <label for="guess">What am I thinking about? </label>
+    <input id="guess">
+    </div>
+    
+    <div id="dialog" title="Basic dialog">
+      <p>Did you guess beaches?</p>
+    </div>
+     
+    <button id="reveal">Reveal What I Am Thinking</button>
   </div>
-  <h3>Section 4</h3>
-  <div>
-    <p>
-    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-    mauris vel est.
-    </p>
-    <p>
-    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-    inceptos himenaeos.
-    </p>
-  </div>
+  
 </div>
 
  

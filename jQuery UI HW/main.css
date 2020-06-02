@@ -42,11 +42,16 @@ img {
 
 body {
     margin: 0px;
-    background-color: black;
+    background-color:white;
+}
+
+.anime {
+    background-color: white;
 }
 
 .flex{
     display: flex;
+    background-color: white;
 }
 
 .grid-container{
@@ -57,7 +62,7 @@ body {
     grid-gap: 10px;
     grid-template-columns: 400px 400px 40px;
     grid-template-rows: 400px 400px 40px 40px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     justify-content: space-evenly;
 }
@@ -103,6 +108,7 @@ button {
     border:none;
     width:100%;
     font-size: 20px;
+    color: white;
 }
 #flipBtn {
     height:400px;
@@ -113,4 +119,19 @@ button {
     height: 400px;
     text-orientation: upright;
     writing-mode: vertical-lr;
+}
+
+/* code for What Am I Thinking About */
+
+#tags {
+    width:500px;
+}
+
+.guess {
+    margin-top: 20px;
+}
+
+#reveal{
+    margin-top: 50px;
+    width: 300px;
 }

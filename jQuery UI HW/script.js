@@ -6,9 +6,32 @@ $( function() {
   } );
  
 
+  // Kill Corona tab
 
+  $(document).ready(function () {
+    var numProducts = 0;
 
-  // playing w anime tab
+    $("#tabs").tabs();
+
+    $(".draggable").draggable({revert:"invalid"});
+
+    $(".droppable").droppable({
+        drop: function () {
+            numProducts++;
+            var plural = "";
+            if (numProducts > 1) {
+                plural = "es";
+            }
+            $(".product-cart").find("h3").text("You have killed " + numProducts + " virus")
+        },
+        
+    });
+})
+  
+  
+  // Playing w Anime tab
+
+  $(document).ready(function (){
 
   $("#randomBtn").click(function(){
     var images = [];
@@ -43,5 +66,7 @@ $("#resetBtn").click(function() {
 location.reload();
 });
   
+})
+
 })
 

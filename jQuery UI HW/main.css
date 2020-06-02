@@ -1,4 +1,45 @@
+/* css for Kill Corona */
+
+img {
+    max-width:200px;
+}
+.product-grid {
+    display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     grid-gap: 1rem;
+    }
+
+.product-grid > div {
+    background:none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    }
+
+.product-cart {
+    background-image: url(images/virus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    background-color: none;
+    
+
+    min-height:200px;
+}
+
+.product-cart p {
+    text-align: center;
+}
+.product-cart h3{
+    text-align: right;
+}
+
+
+
+
+
 /* css for Playing With Anime */
+
+
 body {
     margin: 0px;
     background-color: black;

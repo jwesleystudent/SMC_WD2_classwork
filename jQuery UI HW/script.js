@@ -22,8 +22,9 @@ $( function() {
             var plural = "";
             if (numProducts > 1) {
                 plural = "es";
+                
             }
-            $(".product-cart").find("h3").text("You have killed " + numProducts + " virus")
+            $(".product-cart").find("h3").text("You have killed " + numProducts + " virus" + plural)
         },
         
     });

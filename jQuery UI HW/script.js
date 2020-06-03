@@ -35,7 +35,7 @@ $( function() {
 
   $("#randomBtn").click(function(){
         var images = [];
-        var imgElmt = document.getElementsByTagName("pic");
+        var imgElmt = document.getElementsByClassName("shuffle");
         // line above I changed to "pic" because "img" is used elsewere in the code. These are the only images with a #pic in the id tag. But this doesnt work.
 
         for(var i = 0; i < imgElmt.length; i++){

@@ -16,7 +16,7 @@ img {vertical-align: middle;}
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   padding: 8px 12px;
   position: absolute;
@@ -78,6 +78,27 @@ img {vertical-align: middle;}
     margin:20px;
 }
 
-#paw{
-    margin:auto;
+.paw{
+    display:flex;
+    align-items: center;
+    margin: 15px;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+.footerTxt{
+    display:flex;
+    width:200px;
+    justify-content: center;
+    margin: auto;
+}
+.footerHead{
+    float:left;
+}
+
+.ft{
+    font-size: 10pt;
 }

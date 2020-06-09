@@ -1,3 +1,7 @@
+header {
+    background-color: rgb(11, 139, 161);
+}
+
 #toggleAssist,
 ul.nav-links {
     display: none;

@@ -1,4 +1,5 @@
 @import url("header.css");
+@import url("about.css");
 
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -102,3 +103,4 @@ footer{
 .ft{
     font-size: 10pt;
 }
+

@@ -1,0 +1,6 @@
+.aboutHead {
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 15px;
+}

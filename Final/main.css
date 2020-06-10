@@ -1,106 +1,128 @@
 @import url("header.css");
 @import url("about.css");
 
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  margin-top:30px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 .txtBg {
     color: white;
     background-color: rgb(11, 139, 161);
     padding: 10px;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
-.about{
-    margin:20px;
+.about {
+    margin: 20px;
 }
 
-.paw{
-    display:flex;
+.paw {
+    display: flex;
     align-items: center;
     margin: 15px;
     justify-content: center;
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
 }
-.footerTxt{
-    display:flex;
-    width:200px;
+
+.footerTxt {
+    display: flex;
+    width: 200px;
     justify-content: center;
     margin: auto;
 }
-.footerHead{
-    float:left;
+
+.footerHead {
+    float: left;
 }
 
-.ft{
+.ft {
     font-size: 10pt;
 }
-

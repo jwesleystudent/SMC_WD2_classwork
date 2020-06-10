@@ -1,3 +1,15 @@
+/* .aboutGrid {
+    display: grid;
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 220px;
+    grid-gap: 15px;
+    grid-template-columns: 375px 375px 375px;
+    grid-template-rows:375px;
+    justify-content: space-evenly;
+} */
+
 .aboutHead {
     display: flex;
     max-width: 70%;

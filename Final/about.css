@@ -10,6 +10,11 @@
     justify-content: space-evenly;
 } */
 
+.aboutTitle{
+    display: flex;
+    justify-content: center;
+}
+
 .aboutHead {
     display: flex;
     max-width: 70%;

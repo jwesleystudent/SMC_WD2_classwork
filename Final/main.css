@@ -22,12 +22,16 @@ img {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 30px;
 }
 
 /* Caption text */
 .text {
     color: #f2f2f2;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
     font-size: 30px;
     font-weight: bold;
     padding: 8px 12px;
@@ -126,3 +130,4 @@ footer {
 .ft {
     font-size: 10pt;
 }
+

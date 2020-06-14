@@ -1,10 +1,21 @@
+a:link {
+    color:#0b8ba1;
+}
+
+a:hover {
+    color:rgb(66, 18, 240);
+}
+
+a:visited {
+    color:rgb(66, 18, 240);
+}
 .aboutTitle{
     display: flex;
     justify-content: center;
 }
 
 .aboutHead {
-    max-width: 1000px;
+    max-width: 1366px;
     margin: auto;
     margin-top: 15px;
 }
@@ -32,3 +43,4 @@
     margin: 15px;
     margin-bottom: 50px;
 }
+

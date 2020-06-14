@@ -1,0 +1,44 @@
+footer {
+   display: block;
+} 
+
+/* .footerTxt {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+.ft {
+    font-size: 10pt;
+}  */
+
+.Footer_outer{
+    max-width: 1300px;
+    
+    background-color: black;
+    }
+    
+    .Footer_inner_left{
+    width: 50%;
+    height: 350px;
+    Float: left;
+    display:inline;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+    }
+    
+    .Footer_inner_right{
+    width: 50%;
+    height:350px;
+    Float: right;
+    display:inline;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+    }

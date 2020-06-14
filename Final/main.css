@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("about.css");
+@import url("footer.css");
 
 * {
     box-sizing: border-box;
@@ -28,10 +29,10 @@ img {
 .text {
     color: #f2f2f2;
     text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
     font-size: 30px;
     font-weight: bold;
     padding: 8px 12px;
@@ -98,6 +99,9 @@ img {
     background-color: rgb(11, 139, 161);
     padding: 10px;
     margin-top: 10px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about {
@@ -107,27 +111,6 @@ img {
 .paw {
     display: flex;
     align-items: center;
-    margin: 15px;
+    margin: 30px;
     justify-content: center;
 }
-
-footer {
-    background-color: black;
-    color: white;
-}
-
-.footerTxt {
-    display: flex;
-    width: 200px;
-    justify-content: center;
-    margin: auto;
-}
-
-.footerHead {
-    float: left;
-}
-
-.ft {
-    font-size: 10pt;
-}
-

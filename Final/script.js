@@ -22,4 +22,30 @@ $(document).ready(function () {
         dots[slideIndex - 1].className += " active";
         setTimeout(showSlides, 3000); // Change image every 2 seconds
     }
+
+
+// DONATE PAGE
+
+    $( function() {
+        $( "#thankYou" ).dialog({
+          autoOpen: false,
+          show: {
+            effect: "drop",
+            duration: 1000
+          },
+          hide: {
+            effect: "explode",
+            duration: 1000
+          }
+        });
+     
+        $( "#donButton" ).on( "click", function() {
+          $( "#thankYou" ).dialog( "open" );
+        });
+      } );
+
+
 })
+
+
+

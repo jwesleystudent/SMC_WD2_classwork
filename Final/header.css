@@ -37,22 +37,19 @@ ul.nav-links {
     justify-content: center;
 }
 
-.grid-item {
+.social-items {
     margin: 5px;
 }
 
-#soc1 {
-    grid-column: 1/2;
+#soc1 {  
     width: 75px;
 }
 
 #soc2 {
-    grid-column: 2/3;
     width: 40px;
 }
 
 #soc3 {
-    grid-column: 3/4;
     width: 40px;
 }
 

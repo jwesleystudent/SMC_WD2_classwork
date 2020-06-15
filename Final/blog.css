@@ -1,0 +1,23 @@
+.blog{
+    display:flex;
+    margin:auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blogTitle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogImg{
+    display:flex;
+    justify-content: center;
+}
+.blogImg img{
+    width:80%
+}
+.post{
+    width:70%;
+    margin:auto;
+}

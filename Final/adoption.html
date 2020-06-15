@@ -4,11 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lange Foundation Blog Posts</title>
+    <title>Lange Foundation Adoptions</title>
 
     <link rel="stylesheet" href="main.css">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="script.js"></script>
 
 </head>
@@ -26,7 +30,7 @@
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="adoption.html">Adoptions</a></li>
+                <li><a href="#">Adoptions</a></li>
                 <li><a href="donate.html">Donate</a></li>
                 <li><a href="blog.html">Blog</a></li>
             </ul>
@@ -48,61 +52,39 @@
     <main>
         <div class="aboutTitle">
             <p class="about1">
-                <h2>BLOG</h2>
+                <h2>ADOPTIONS</h2>
+            </p>
+        </div>
+        <div class="aboutHead">
+            <img src="images/adoption-dogs.jpg" alt="three dogs looking inquisitively">
+        </div>
+
+        <div class="aboutTitle" id="adopt">
+            <p class="about1">
+                <h2>Click on our furry friends below to learn more!</h2>
             </p>
         </div>
 
-        <div class="aboutHead">
-            <img src="images/blog-dog.jpg">
+        <div class="adoptGallery">
+            <a data-fancybox="gallery" href="images/big_1.jpg" data-caption="Bobo - male - 3yr, 1mo - corgi/terrier"><img src="images/small_1.jpg"></a>
+            <a data-fancybox="gallery" href="images/big_2.jpg"data-caption="Dorian - male - 5yr, 3mo - terrier/maltese"><img src="images/small_2.jpg"></a>
+            <a data-fancybox="gallery" href="images/big_3.jpg"data-caption="Willow - female - 6yr, 3mo - terrier"><img src="images/small_3.jpg"></a>
+            <a data-fancybox="gallery" href="images/big_4.jpg"data-caption="Gus gus - male - 10yr - cocker spaniel"><img src="images/small_4.jpg"></a>
+
         </div>
 
-        <div class="blog">
+        <div class="sections">
+            <p class="adoptions">
+                For more information about any of our loving doggies looking for a furever home, please call us 
+                <br>
+                <h4>(310)473-5585</h4>
+           </p>
 
-            <div class="blogTitle">
-                <h4>CAN DOGS GET CORONAVIRUS?</h4>
-            </div>
-
-
-            <div class="blogImg">
-                <img src="images/dog-blog1.jpg">
-            </div>
-
-            <div class="post">
-                <p>A pomeranian in Hong Kong recently made news after testing positive for the novel coronavirus that was first detected in China. The dog's owner had previously tested positive for COVID-19, and concerns quickly mounted that dogs may be a new source of infection.<a href="https://djangobrand.com/blogs/news/can-dogs-get-coronavirus-covid-19">...more</a></p>
-            </div>
+           
+               
+          
         </div>
 
-        <div class="blog">
-
-            <div class="blogTitle">
-                <h4>IS IT SAFE TO FLY YOUR PET IN CARGO?</h4>
-            </div>
-
-
-            <div class="blogImg">
-                <img src="images/airplane.jpg">
-            </div>
-
-            <div class="post">
-                <p>Is the cargo area safe for pet travel? Will dogs too large for in-cabin pet travel be comfortable in the hold of the plane?<a href="https://djangobrand.com/blogs/news/is-your-pet-safe-flying-in-cargo">...more</a></p>
-            </div>
-        </div>
-
-        <div class="blog">
-
-            <div class="blogTitle">
-                <h4>HOW TO CHOOSE THE BEST DOG FOOD</h4>
-            </div>
-
-
-            <div class="blogImg">
-                <img src="images/dog-food.jpg">
-            </div>
-
-            <div class="post">
-                <p>How do you choose the best dog food for your pup? The endless selection of dog food products with promising marketing claims make the task of selecting dog food incredibly challenging. Do you go with the dog food brand that claims it only uses all-natural ingredients? Is organic better? And what does "all-natural" even mean!?<a href="https://djangobrand.com/blogs/news/how-to-choose-the-best-dog-food">...more</a></p>
-            </div>
-        </div>
     </main>
 
     <footer>

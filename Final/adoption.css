@@ -1,0 +1,31 @@
+.adoptGallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: .5rem;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+
+}
+
+.adoptGallery img {
+    max-width: 200px;
+}
+
+body {
+    margin: 2rem;
+    font: 12px system-ui;
+}
+
+#adopt{
+    margin-top:30px;
+    color:rgb(11, 139, 161);
+}
+
+.adoptions{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}

@@ -3,6 +3,7 @@
 @import url("footer.css");
 @import url("donate.css");
 @import url("blog.css");
+@import url("adoption.css");
 
 * {
     box-sizing: border-box;

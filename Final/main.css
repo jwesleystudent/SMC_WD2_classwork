@@ -117,3 +117,11 @@ img {
     margin: 30px;
     justify-content: center;
 }
+
+@media(min-width:750px){
+    
+
+    .txtBg{
+        font-size: 12pt;
+    }
+}

@@ -82,3 +82,26 @@ ul.nav-links a {
     color: #000000;
 
 }
+
+@media(min-width:750px){
+    
+    .logo {
+        max-width: 250px;
+        margin: 15px;
+    }
+    
+    .toggle-button {
+        display:none;
+    }
+    
+    ul.nav-links {
+        display: block;
+        float: right;
+        font-size: 10pt;
+        margin-top: 92px;
+    }
+    ul.nav-links li {
+        display: inline-block;
+        border-bottom: none;
+    }
+}

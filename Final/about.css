@@ -1,15 +1,16 @@
 a:link {
-    color:#0b8ba1;
+    color: #0b8ba1;
 }
 
 a:hover {
-    color:rgb(66, 18, 240);
+    color: rgb(66, 18, 240);
 }
 
 a:visited {
-    color:rgb(66, 18, 240);
+    color: rgb(66, 18, 240);
 }
-.aboutTitle{
+
+.aboutTitle {
     display: flex;
     justify-content: center;
 }
@@ -19,35 +20,42 @@ a:visited {
     margin: auto;
 }
 
-.aboutHead img{
-    width:100%;
+.aboutHead img {
+    width: 100%;
     margin: auto;
 }
 
-#amTitle{
+#amTitle {
     color: #0b8ba1;
 }
 
-.aboutMain{
+.aboutMain {
     margin: 15px;
     margin-bottom: 50px;
+    max-width: 1366px;
+    margin: auto;
 }
 
-.aboutMain2{
+.aboutMain2 {
     margin: 15px;
     margin-bottom: 50px;
+    max-width: 1366px;
+    margin: auto;
 }
 
-.aboutMain3{
+.aboutMain3 {
     margin: 15px;
     margin-bottom: 50px;
+    max-width: 1366px;
+    margin: auto;
 }
 
-@media(min-width:750px){
-    p{
+@media(min-width:750px) {
+    p {
         font-size: 12pt;
     }
-    #amTitle{
+
+    #amTitle {
         font-size: 14pt;
     }
 }

@@ -37,4 +37,16 @@ body {
     .sections{
         font-size: larger;
     }
+
+    .adoptGallery {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: .5rem;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-items: center;
+        max-width:800px;
+    }
 }

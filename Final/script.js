@@ -1,5 +1,26 @@
 $(document).ready(function () {
 
+  // DONATE PAGE
+
+  $( function() {
+    $( "#thankYou" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "drop",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+    $( "#donButton" ).on( "click", function() {
+      $( "#thankYou" ).dialog( "open" );
+    });
+  } );
+
+  // home page image carousel
 
     var slideIndex = 0;
     showSlides();
@@ -24,25 +45,7 @@ $(document).ready(function () {
     }
 
 
-// DONATE PAGE
 
-    $( function() {
-        $( "#thankYou" ).dialog({
-          autoOpen: false,
-          show: {
-            effect: "drop",
-            duration: 1000
-          },
-          hide: {
-            effect: "explode",
-            duration: 1000
-          }
-        });
-     
-        $( "#donButton" ).on( "click", function() {
-          $( "#thankYou" ).dialog( "open" );
-        });
-      } );
 
 
 })

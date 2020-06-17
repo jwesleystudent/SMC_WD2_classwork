@@ -118,6 +118,19 @@ img {
     justify-content: center;
 }
 
+.thank-you{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    color:#0b8ba1;
+}
+
+.thankyouDog{
+    display:flex;
+    justify-content: center;
+}
+
 @media(min-width:750px){
     
 

@@ -32,7 +32,12 @@
 
 #donButton{
     grid-column: 1/4;
-    width: 100%;
+    width: 350px;
+}
+
+.thankyouButton{
+    display:flex;
+    justify-content: center;
 }
 
 .sections{
